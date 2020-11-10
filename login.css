@@ -1,0 +1,46 @@
+body {
+    background: url("/assets/ivan-aleksic-PDRFeeDniCk-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+    margin: auto;
+    width: 40%;
+    background-color: #ffff;
+    overflow: hidden;
+    padding: 1rem;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+@media (min-width: 400px) body {}
+
+a {
+    text-decoration: none;
+}
+
+.container input {
+    width: 60%;
+    padding: 0.5rem;
+}
+
+#checkBox {
+    width: auto;
+}
+
+#signUpButton {
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    background-color: #695;
+    color: #fff;
+}
+
+button:hover {
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+}
